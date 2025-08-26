@@ -20,3 +20,5 @@ scholar:
   locale: en
   source: ./_bibliography
   bibliography: papers.bib
+
+include: ["_pages"]
