@@ -9,4 +9,4 @@ title: "Home"
 I am a PhD student at University of Illinois Urbana-Champaign.  
 My research focuses on **clinical trials, deep learning, and healthcare AI**.
 
-👉 Check out my [Research](/_pages/research) and [Publications](/_pages/publications).
+👉 Check out my [Research](/research) and [Publications](/publications).

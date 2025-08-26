@@ -1,13 +1,12 @@
 title: "Trisha Das"
 description: "PhD Student | Clinical Trials | AI for Healthcare"
 baseurl: "" 
-url: "https://username.github.io"
+url: "https://trishad2.github.io"
 
 author:
   name: "Trisha Das"
-  email: "your_email@university.edu"
-  github: "username"
-  linkedin: "your-linkedin"
+  email: "trishad2@illinois.edu"
+  github: "trishad2"
 
 theme: minima
 
