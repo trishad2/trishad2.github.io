@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana, Geneva, sans-serif; 
+    margin: 0;
+    padding: 0; /* Adds space inside the body */
+    background-color: #e7f7e4;
+    color: #003366;
+}
+header {
+    background: #004d66;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+header h1 {
+    margin: 20px;
+    font-size: 2rem;
+}
+nav {
+    background: #006080;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 2rem;
+}
+section h2 {
+    color: #004d66;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+}
+ul li a {
+    color: #004d66;
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #004d66;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.profile-photo {
+    width: 250px; /* Adjust the size */
+    height: 250px;
+    border-radius: 50%; /* Makes the photo circular */
+    border: 3px solid #ffffff; /* White border around the circle */
+    background-color: #004d66; /* Matches the header background for contrast */
+    display: block;
+    margin: 0 auto 1rem; /* Centers the photo and adds spacing below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+address {
+    font-style: normal; /* Removes italic styling from default */
+    line-height: 1.6;
+    margin: 1rem 0;
+    background: #f5f7fa; /* Light background for distinction */
+    padding: 1rem;
+    border-left: 4px solid #004d66; /* Decorative border */
+}
+/* Education Section Styling */
+#education-and-interests .education ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#education-and-interests .education ul li {
+    margin: 1rem 0; /* Add spacing between each entry */
+    line-height: 1.6; /* Increase readability */
+}
+
+#education-and-interests .education ul li strong {
+    font-size: 1rem;
+    color: #004d66; /* Highlight degree and year */
+}
+
+#education-and-interests .education ul li br {
+    margin: 0.5rem 0; /* Adds spacing between degree and institution */
+}
+
+/* Institution Styling */
+#education-and-interests .education .institution {
+    font-size: 0.8rem; /* Smaller font size */
+    color: #666666; /* Subtle gray color */
+    font-weight: normal; /* Regular weight, not bold */
+    font-style: italic; /* Optional: Italicized for distinction */
+}
