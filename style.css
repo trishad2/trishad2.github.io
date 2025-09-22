@@ -42,6 +42,13 @@ nav {
   flex: 2 1 500px;
 }
 
+.hero-subtext {
+  font-size: 1rem;       /* smaller than main hero text */
+  line-height: 1.6;
+  margin-top: 1rem;
+  color: #333;
+}
+
 .hero-text h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
