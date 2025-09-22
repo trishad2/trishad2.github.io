@@ -40,9 +40,10 @@ nav {
 
 
 .hero-text p:first-of-type {
-  margin-bottom: 1.5rem;  /* space between tagline and detailed description */
-  font-weight: 500;        /* optional: slightly bolder than subtext */
-  font-size: 1.5rem;       /* keep main tagline larger */
+  margin-bottom: 1.5rem;   /* keeps the gap before detailed description */
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: underline;   /* adds underline */
 }
 
 .hero-subtext {
