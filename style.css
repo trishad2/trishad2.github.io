@@ -20,12 +20,19 @@ nav {
 
 /* Hero Section */
 .hero-photo img {
-  width: 192px; /* 2 inches */
-  height: 192px; /* 2 inches */
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 192px;    /* 2 inches */
+  height: 192px;   /* 2 inches */
+  border-radius: 50%;  /* makes it a perfect circle */
+  object-fit: cover;   /* ensures the image fills the circle without distortion */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* subtle shadow */
 }
+.hero {
+  background: #f5f5f5;
+  color: #0d1b2a;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
 
 .hero h1 { font-size: 3rem; margin-bottom: 0.5rem; }
 .hero p { font-size: 1.5rem; max-width: 600px; }
