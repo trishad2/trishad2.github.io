@@ -58,12 +58,13 @@ nav {
 }
 
 .hero-photo img {
-  width: 192px;    /* 2 inches */
-  height: 192px;   /* 2 inches */
-  border-radius: 50%;  /* circular */
-  object-fit: cover;   /* ensures image fills the circle */
+  width: 192px;       /* 2 inches */
+  height: 192px;      /* 2 inches */
+  border-radius: 10px; /* slightly rounded corners */
+  object-fit: cover;  /* fills the square without stretching */
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 
 /* Sections */
 section { padding: 4rem 2rem; max-width: 1000px; margin: auto; }
