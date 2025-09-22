@@ -1,92 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trisha Das</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trisha Das - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <!-- Add the photo above the heading -->
-        <img src="photo.jpg" alt="My Photo" class="profile-photo">
-        <h1>Trisha Das</h1>
-        <p>Exploring the intersection of Deep learning and Healthcare</p>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="research.html">Publications</a>
-        <a href="courses.html">Courses</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a PhD candidate in <a href="https://siebelschool.illinois.edu" target="_blank">Computer Science</a> at <a href="https://siebelschool.illinois.edu" target="_blank">University of Illinois Urbana-Champaign</a>, specializing in Deep Learning for Heathcare. My research focuses on developing deep learning methods for Clinical Trials. My academic journey combines teaching and research. I served as a full-time faculty member at Brac University for ~2 years and worked as a Teaching Assistant (TA) at UIUC for multiple courses.
-            <br><br>
-            My work focuses on advancing clinical trial research with deep learning, addressing key
-            challenges such as the lack of patient-level data due to privacy concerns, the absence of
-            labeled trial outcomes, and the labor-intensive process of identifying similar historical trials—an
-            essential step for optimizing trial design and improving trial success rates. I have developed
-            methods for synthetic patient data generation to mitigate data scarcity, a benchmark dataset for
-            trial outcome labeling using weak supervision, and a novel approach to trial similarity search
-            leveraging contrastive learning.
-        </p>
-        <ul>
-            <li>
-                <strong>Google Scholar:</strong> 
-                <a href="https://scholar.google.com/citations?user=G1kSUlgAAAAJ&hl=en" target="_blank">https://scholar.google.com/citations?user=G1kSUlgAAAAJ&hl=en</a>
-            </li>
-            <li>
-                <strong>LinkedIn:</strong> 
-                <a href="https://www.linkedin.com/in/trishad2/" target="_blank">https://www.linkedin.com/in/trishad2/</a>
-            </li>
-            <li>
-                <strong>GitHub:</strong> 
-                <a href="https://github.com/trishad2" target="_blank">https://github.com/trishad2</a>
-            </li>
-        </ul>
-    </section>
 
-    <section id="education-and-interests">
-        <div class="container">
-            <!-- Education Section -->
-            <div class="section education">
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        <strong>PhD in Computer Science, (Expected Spring 2026)</strong><br>
-                        <span class="institution"><a href="https://illinois.edu" target="_blank">University of Illinois Urbana-Champaign</a></span>
-                    </li>
-                    <li>
-                        <strong>MS in Computer Science, 2024</strong><br>
-                        <span class="institution"><a href="https://illinois.edu" target="_blank">University of Illinois Urbana-Champaign</a></span>
-                    </li>
-                    <li>
-                        <strong>BSc in Computer Science and Engineering, 2018</strong><br>
-                        <span class="institution"><a href="https://www.buet.ac.bd/web/" target="_blank">Bangladesh University of Engineering and Technology</a></span>
-                    </li>
-                    
-                </ul>
-                
-            </div>
-    
-            <!-- Interests Section -->
-            <div class="section interests">
-                <h2>Research Interests</h2>
-                <ul>
-                    <li>Deep Learning in Healthcare</li>
-                    <li>Clinical Trials</li>
-                    <li>Natural Language Processing</li>
-                    <li>ML in Bioinformatics</li>
-                    <li>ML in Health Informatics</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Trisha Das</p>
-    </footer>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Trisha Das</div>
+    <div class="nav-links">
+      <a href="#research">Research</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Trisha Das</h1>
+    <p>PhD Candidate | Clinical Trials & AI Researcher | Building smarter solutions for healthcare through deep learning.</p>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research">
+    <h2>Research Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Clinical Trial Data Generation</h3>
+        <p>Synthetic patient data creation for better trial simulations using deep learning.</p>
+      </div>
+      <div class="card">
+        <h3>Trial Similarity Modeling</h3>
+        <p>Contrastive learning for clustering trials by disease and outcome similarity.</p>
+      </div>
+      <div class="card">
+        <h3>Eligibility Criteria Analysis</h3>
+        <p>Predicting EC amendments and supporting historical control arm creation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses">
+    <h2>Courses & Skills</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Machine Learning</h3>
+        <p>Python, PyTorch, Scikit-learn, Huggingface Transformers</p>
+      </div>
+      <div class="card">
+        <h3>Data Science</h3>
+        <p>Statistics, Data Analysis, SQL, Pandas, Visualization</p>
+      </div>
+      <div class="card">
+        <h3>Clinical Research</h3>
+        <p>Clinical trial design, outcome measures, regulatory frameworks</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:trisha@example.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/trishad2" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/trishad2" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Trisha Das
+  </footer>
+
 </body>
 </html>
